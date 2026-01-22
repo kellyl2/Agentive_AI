@@ -1,0 +1,5780 @@
+{
+  "meta": {
+    "generated_at": "2026-01-21",
+    "project": "Fictional Peloton Logical Data Model (Dataset-as-Table)"
+  },
+  "nodes": {
+    "tables": [
+      {
+        "table": "a_b_experiment_registry",
+        "table_display": "A/B Experiment Registry",
+        "primary_key": "a_b_experiment_registry_id"
+      },
+      {
+        "table": "accessibility_preferences_assistive_tech",
+        "table_display": "Accessibility Preferences & Assistive Tech",
+        "primary_key": "accessibility_preferences_assistive_tech_id"
+      },
+      {
+        "table": "account",
+        "table_display": "Account",
+        "primary_key": "account_id"
+      },
+      {
+        "table": "agent_interaction_logs",
+        "table_display": "Agent Interaction Logs",
+        "primary_key": "agent_interaction_logs_id"
+      },
+      {
+        "table": "agent_state_checkpoints",
+        "table_display": "Agent State & Checkpoints",
+        "primary_key": "agent_state_checkpoints_id"
+      },
+      {
+        "table": "anomaly_flags",
+        "table_display": "Anomaly Flags",
+        "primary_key": "anomaly_flags_id"
+      },
+      {
+        "table": "attach_rates",
+        "table_display": "Attach Rates",
+        "primary_key": "attach_rates_id"
+      },
+      {
+        "table": "authentication_events",
+        "table_display": "Authentication Events",
+        "primary_key": "authentication_events_id"
+      },
+      {
+        "table": "bi_semantic_layer",
+        "table_display": "BI Semantic Layer",
+        "primary_key": "bi_semantic_layer_id"
+      },
+      {
+        "table": "billing_events",
+        "table_display": "Billing Events",
+        "primary_key": "billing_events_id"
+      },
+      {
+        "table": "business_glossary_policy_glossary",
+        "table_display": "Business Glossary & Policy Glossary",
+        "primary_key": "business_glossary_policy_glossary_id"
+      },
+      {
+        "table": "call_chat_transcripts",
+        "table_display": "Call/Chat Transcripts",
+        "primary_key": "call_chat_transcripts_id"
+      },
+      {
+        "table": "carrier_tracking_data",
+        "table_display": "Carrier Tracking Data",
+        "primary_key": "carrier_tracking_data_id"
+      },
+      {
+        "table": "challenge_participation",
+        "table_display": "Challenge Participation",
+        "primary_key": "challenge_participation_id"
+      },
+      {
+        "table": "challenges",
+        "table_display": "Challenges",
+        "primary_key": "challenges_id"
+      },
+      {
+        "table": "chargeback_case_files",
+        "table_display": "Chargeback Case Files",
+        "primary_key": "chargeback_case_files_id"
+      },
+      {
+        "table": "class_attendance",
+        "table_display": "Class Attendance",
+        "primary_key": "class_attendance_id"
+      },
+      {
+        "table": "communications_history",
+        "table_display": "Communications History",
+        "primary_key": "communications_history_id"
+      },
+      {
+        "table": "community_signals",
+        "table_display": "Community Signals",
+        "primary_key": "community_signals_id"
+      },
+      {
+        "table": "compatibility_matrices",
+        "table_display": "Compatibility Matrices",
+        "primary_key": "compatibility_matrices_id"
+      },
+      {
+        "table": "competitor_intelligence_repository",
+        "table_display": "Competitor Intelligence Repository",
+        "primary_key": "competitor_intelligence_repository_id"
+      },
+      {
+        "table": "completion_rates",
+        "table_display": "Completion Rates",
+        "primary_key": "completion_rates_id"
+      },
+      {
+        "table": "consent_privacy_preferences",
+        "table_display": "Consent & Privacy Preferences",
+        "primary_key": "consent_privacy_preferences_id"
+      },
+      {
+        "table": "contact_center_telephony_metadata",
+        "table_display": "Contact Center Telephony Metadata",
+        "primary_key": "contact_center_telephony_metadata_id"
+      },
+      {
+        "table": "content_licensing_metadata",
+        "table_display": "Content Licensing Metadata",
+        "primary_key": "content_licensing_metadata_id"
+      },
+      {
+        "table": "content_metadata",
+        "table_display": "Content Metadata",
+        "primary_key": "content_metadata_id"
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "table_display": "Cost-to-Serve Metrics",
+        "primary_key": "cost_to_serve_metrics_id"
+      },
+      {
+        "table": "curated_analytics_datasets",
+        "table_display": "Curated Analytics Datasets",
+        "primary_key": "curated_analytics_datasets_id"
+      },
+      {
+        "table": "customer_communications_history",
+        "table_display": "Customer Communications History",
+        "primary_key": "customer_communications_history_id"
+      },
+      {
+        "table": "customer_segments",
+        "table_display": "Customer Segments",
+        "primary_key": "customer_segments_id"
+      },
+      {
+        "table": "customer_support_ticket_data",
+        "table_display": "Customer Support Ticket Data",
+        "primary_key": "customer_support_ticket_data_id"
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "table_display": "Data Access & Entitlement Policies",
+        "primary_key": "data_access_entitlement_policies_id"
+      },
+      {
+        "table": "data_access_policies",
+        "table_display": "Data Access Policies",
+        "primary_key": "data_access_policies_id"
+      },
+      {
+        "table": "data_lineage_catalog_metadata",
+        "table_display": "Data Lineage & Catalog Metadata",
+        "primary_key": "data_lineage_catalog_metadata_id"
+      },
+      {
+        "table": "data_quality_checks",
+        "table_display": "Data Quality Checks",
+        "primary_key": "data_quality_checks_id"
+      },
+      {
+        "table": "delivery_appointments",
+        "table_display": "Delivery Appointments",
+        "primary_key": "delivery_appointments_id"
+      },
+      {
+        "table": "device_counts_per_account",
+        "table_display": "Device Counts per Account",
+        "primary_key": "device_counts_per_account_id"
+      },
+      {
+        "table": "device_diagnostics",
+        "table_display": "Device Diagnostics",
+        "primary_key": "device_diagnostics_id"
+      },
+      {
+        "table": "device_firmware_release_notes",
+        "table_display": "Device Firmware Release Notes",
+        "primary_key": "device_firmware_release_notes_id"
+      },
+      {
+        "table": "device_registry",
+        "table_display": "Device Registry",
+        "primary_key": "device_registry_id"
+      },
+      {
+        "table": "device_telemetry",
+        "table_display": "Device Telemetry",
+        "primary_key": "device_telemetry_id"
+      },
+      {
+        "table": "feature_store",
+        "table_display": "Feature Store",
+        "primary_key": "feature_store_id"
+      },
+      {
+        "table": "feedback_rating_signals",
+        "table_display": "Feedback & Rating Signals",
+        "primary_key": "feedback_rating_signals_id"
+      },
+      {
+        "table": "feedback_signals",
+        "table_display": "Feedback Signals",
+        "primary_key": "feedback_signals_id"
+      },
+      {
+        "table": "field_service_work_orders",
+        "table_display": "Field Service Work Orders",
+        "primary_key": "field_service_work_orders_id"
+      },
+      {
+        "table": "fraud_rules",
+        "table_display": "Fraud Rules",
+        "primary_key": "fraud_rules_id"
+      },
+      {
+        "table": "freshness_metrics",
+        "table_display": "Freshness Metrics",
+        "primary_key": "freshness_metrics_id"
+      },
+      {
+        "table": "geo_distribution",
+        "table_display": "Geo-Distribution",
+        "primary_key": "geo_distribution_id"
+      },
+      {
+        "table": "ground_truth_label_store",
+        "table_display": "Ground Truth & Label Store",
+        "primary_key": "ground_truth_label_store_id"
+      },
+      {
+        "table": "human_review_decisions",
+        "table_display": "Human Review Decisions",
+        "primary_key": "human_review_decisions_id"
+      },
+      {
+        "table": "human_review_queue_decisions",
+        "table_display": "Human Review Queue & Decisions",
+        "primary_key": "human_review_queue_decisions_id"
+      },
+      {
+        "table": "identity_verification_outcomes",
+        "table_display": "Identity Verification Outcomes",
+        "primary_key": "identity_verification_outcomes_id"
+      },
+      {
+        "table": "incident_management_status_confirmations",
+        "table_display": "Incident Management & Status Confirmations",
+        "primary_key": "incident_management_status_confirmations_id"
+      },
+      {
+        "table": "installation_delivery_partner_performance",
+        "table_display": "Installation & Delivery Partner Performance",
+        "primary_key": "installation_delivery_partner_performance_id"
+      },
+      {
+        "table": "instructor_metadata",
+        "table_display": "Instructor Metadata",
+        "primary_key": "instructor_metadata_id"
+      },
+      {
+        "table": "inventory",
+        "table_display": "Inventory",
+        "primary_key": "inventory_id"
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "table_display": "Inventory Allocation Rules",
+        "primary_key": "inventory_allocation_rules_id"
+      },
+      {
+        "table": "inventory_turnover",
+        "table_display": "Inventory Turnover",
+        "primary_key": "inventory_turnover_id"
+      },
+      {
+        "table": "knowledge_base_articles_sops",
+        "table_display": "Knowledge Base Articles & SOPs",
+        "primary_key": "knowledge_base_articles_sops_id"
+      },
+      {
+        "table": "kpi_definitions",
+        "table_display": "KPI Definitions",
+        "primary_key": "kpi_definitions_id"
+      },
+      {
+        "table": "leaderboards",
+        "table_display": "Leaderboards",
+        "primary_key": "leaderboards_id"
+      },
+      {
+        "table": "localization_translation_memory",
+        "table_display": "Localization & Translation Memory",
+        "primary_key": "localization_translation_memory_id"
+      },
+      {
+        "table": "login_patterns",
+        "table_display": "Login Patterns",
+        "primary_key": "login_patterns_id"
+      },
+      {
+        "table": "margin_targets",
+        "table_display": "Margin Targets",
+        "primary_key": "margin_targets_id"
+      },
+      {
+        "table": "member_profile",
+        "table_display": "Member Profile",
+        "primary_key": "member_profile_id"
+      },
+      {
+        "table": "membership_subscriptions",
+        "table_display": "Membership Subscriptions",
+        "primary_key": "membership_subscriptions_id"
+      },
+      {
+        "table": "metric_glossary",
+        "table_display": "Metric Glossary",
+        "primary_key": "metric_glossary_id"
+      },
+      {
+        "table": "model_registry_evaluation_results",
+        "table_display": "Model Registry & Evaluation Results",
+        "primary_key": "model_registry_evaluation_results_id"
+      },
+      {
+        "table": "music_tags",
+        "table_display": "Music Tags",
+        "primary_key": "music_tags_id"
+      },
+      {
+        "table": "notification_templates_rules",
+        "table_display": "Notification Templates & Rules",
+        "primary_key": "notification_templates_rules_id"
+      },
+      {
+        "table": "order_history",
+        "table_display": "Order History",
+        "primary_key": "order_history_id"
+      },
+      {
+        "table": "order_management_system_oms",
+        "table_display": "Order Management System (OMS)",
+        "primary_key": "order_management_system_oms_id"
+      },
+      {
+        "table": "parts_catalog_service_bom",
+        "table_display": "Parts Catalog & Service BOM",
+        "primary_key": "parts_catalog_service_bom_id"
+      },
+      {
+        "table": "payments_risk_signals",
+        "table_display": "Payments Risk Signals",
+        "primary_key": "payments_risk_signals_id"
+      },
+      {
+        "table": "personalization_profiles",
+        "table_display": "Personalization Profiles",
+        "primary_key": "personalization_profiles_id"
+      },
+      {
+        "table": "pii_vault_tokenization_map",
+        "table_display": "PII Vault / Tokenization Map",
+        "primary_key": "pii_vault_tokenization_map_id"
+      },
+      {
+        "table": "pipeline_logs",
+        "table_display": "Pipeline Logs",
+        "primary_key": "pipeline_logs_id"
+      },
+      {
+        "table": "policy_exception_ledger",
+        "table_display": "Policy Exception Ledger",
+        "primary_key": "policy_exception_ledger_id"
+      },
+      {
+        "table": "pricing",
+        "table_display": "Pricing",
+        "primary_key": "pricing_id"
+      },
+      {
+        "table": "product_catalog",
+        "table_display": "Product Catalog",
+        "primary_key": "product_catalog_id"
+      },
+      {
+        "table": "product_specifications",
+        "table_display": "Product Specifications",
+        "primary_key": "product_specifications_id"
+      },
+      {
+        "table": "promotion_rules",
+        "table_display": "Promotion Rules",
+        "primary_key": "promotion_rules_id"
+      },
+      {
+        "table": "promotions_calendar_launch_plan",
+        "table_display": "Promotions Calendar & Launch Plan",
+        "primary_key": "promotions_calendar_launch_plan_id"
+      },
+      {
+        "table": "prompt_library_version_history",
+        "table_display": "Prompt Library & Version History",
+        "primary_key": "prompt_library_version_history_id"
+      },
+      {
+        "table": "ratings_feedback",
+        "table_display": "Ratings & Feedback",
+        "primary_key": "ratings_feedback_id"
+      },
+      {
+        "table": "replacement_inventory",
+        "table_display": "Replacement Inventory",
+        "primary_key": "replacement_inventory_id"
+      },
+      {
+        "table": "returns",
+        "table_display": "Returns",
+        "primary_key": "returns_id"
+      },
+      {
+        "table": "revenue_recognition_subscription_accounting",
+        "table_display": "Revenue Recognition & Subscription Accounting",
+        "primary_key": "revenue_recognition_subscription_accounting_id"
+      },
+      {
+        "table": "risk_scores",
+        "table_display": "Risk Scores",
+        "primary_key": "risk_scores_id"
+      },
+      {
+        "table": "risk_signals",
+        "table_display": "Risk Signals",
+        "primary_key": "risk_signals_id"
+      },
+      {
+        "table": "rma_refurbishment_lifecycle",
+        "table_display": "RMA & Refurbishment Lifecycle",
+        "primary_key": "rma_refurbishment_lifecycle_id"
+      },
+      {
+        "table": "safety_policy_medical_disclaimers",
+        "table_display": "Safety Policy & Medical Disclaimers",
+        "primary_key": "safety_policy_medical_disclaimers_id"
+      },
+      {
+        "table": "sales_velocity",
+        "table_display": "Sales Velocity",
+        "primary_key": "sales_velocity_id"
+      },
+      {
+        "table": "search_queries",
+        "table_display": "Search Queries",
+        "primary_key": "search_queries_id"
+      },
+      {
+        "table": "seasonality_indicators",
+        "table_display": "Seasonality Indicators",
+        "primary_key": "seasonality_indicators_id"
+      },
+      {
+        "table": "service_level_agreements_slas",
+        "table_display": "Service Level Agreements (SLAs)",
+        "primary_key": "service_level_agreements_slas_id"
+      },
+      {
+        "table": "social_graph",
+        "table_display": "Social Graph",
+        "primary_key": "social_graph_id"
+      },
+      {
+        "table": "substitution_list",
+        "table_display": "Substitution List",
+        "primary_key": "substitution_list_id"
+      },
+      {
+        "table": "support_tickets",
+        "table_display": "Support Tickets",
+        "primary_key": "support_tickets_id"
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "table_display": "System Health & API Telemetry",
+        "primary_key": "system_health_api_telemetry_id"
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "table_display": "Telemetry Schema Registry",
+        "primary_key": "telemetry_schema_registry_id"
+      },
+      {
+        "table": "tool_registry_tool_schemas",
+        "table_display": "Tool Registry & Tool Schemas",
+        "primary_key": "tool_registry_tool_schemas_id"
+      },
+      {
+        "table": "trust_safety_moderation_events",
+        "table_display": "Trust & Safety Moderation Events",
+        "primary_key": "trust_safety_moderation_events_id"
+      },
+      {
+        "table": "vendor_contracts_service_terms",
+        "table_display": "Vendor Contracts & Service Terms",
+        "primary_key": "vendor_contracts_service_terms_id"
+      },
+      {
+        "table": "vendor_lead_times",
+        "table_display": "Vendor Lead Times",
+        "primary_key": "vendor_lead_times_id"
+      },
+      {
+        "table": "warehouse_management_system_wms",
+        "table_display": "Warehouse Management System (WMS)",
+        "primary_key": "warehouse_management_system_wms_id"
+      },
+      {
+        "table": "warranty_terms",
+        "table_display": "Warranty Terms",
+        "primary_key": "warranty_terms_id"
+      },
+      {
+        "table": "workout_telemetry",
+        "table_display": "Workout Telemetry",
+        "primary_key": "workout_telemetry_id"
+      }
+    ],
+    "columns": [
+      {
+        "table": "a_b_experiment_registry",
+        "column": "a_b_experiment_registry_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "a_b_experiment_registry",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "a_b_experiment_registry",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "a_b_experiment_registry",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "a_b_experiment_registry",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "a_b_experiment_registry",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "accessibility_preferences_assistive_tech",
+        "column": "accessibility_preferences_assistive_tech_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "accessibility_preferences_assistive_tech",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "accessibility_preferences_assistive_tech",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "account",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "account",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "account",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_interaction_logs",
+        "column": "agent_interaction_logs_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_interaction_logs",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_interaction_logs",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_interaction_logs",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "agent_interaction_logs",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_interaction_logs",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_state_checkpoints",
+        "column": "agent_state_checkpoints_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_state_checkpoints",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "agent_state_checkpoints",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "anomaly_flags",
+        "column": "anomaly_flags_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "anomaly_flags",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "anomaly_flags",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "anomaly_flags",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "anomaly_flags",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "anomaly_flags",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "attach_rates",
+        "column": "attach_rates_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "attach_rates",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "attach_rates",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "attach_rates",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "attach_rates",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "attach_rates",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "attach_rates",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "authentication_events",
+        "column": "authentication_events_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "authentication_events",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "authentication_events",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "authentication_events",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "authentication_events",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "authentication_events",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "authentication_events",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "bi_semantic_layer",
+        "column": "bi_semantic_layer_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "bi_semantic_layer",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "bi_semantic_layer",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "billing_events",
+        "column": "billing_events_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "billing_events",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "billing_events",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "billing_events",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "billing_events",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "billing_events",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "billing_events",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "billing_events",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "business_glossary_policy_glossary",
+        "column": "business_glossary_policy_glossary_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "business_glossary_policy_glossary",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "business_glossary_policy_glossary",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "business_glossary_policy_glossary",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "business_glossary_policy_glossary",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "call_chat_transcripts",
+        "column": "call_chat_transcripts_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "call_chat_transcripts",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "call_chat_transcripts",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "call_chat_transcripts",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "call_chat_transcripts",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "call_chat_transcripts",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "carrier_tracking_data",
+        "column": "carrier_tracking_data_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "carrier_tracking_data",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "carrier_tracking_data",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "carrier_tracking_data",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "carrier_tracking_data",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "carrier_tracking_data",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "challenge_participation",
+        "column": "challenge_participation_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "challenge_participation",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "challenge_participation",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "challenge_participation",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "challenge_participation",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "challenges",
+        "column": "challenges_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "challenges",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "challenges",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "chargeback_case_files",
+        "column": "chargeback_case_files_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "chargeback_case_files",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "chargeback_case_files",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "class_attendance",
+        "column": "class_attendance_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "class_attendance",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "class_attendance",
+        "column": "content_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "class_attendance",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "class_attendance",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "communications_history",
+        "column": "communications_history_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "communications_history",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "communications_history",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "communications_history",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "communications_history",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "community_signals",
+        "column": "community_signals_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "community_signals",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "community_signals",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "community_signals",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "community_signals",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "community_signals",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "compatibility_matrices",
+        "column": "compatibility_matrices_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "compatibility_matrices",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "compatibility_matrices",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "compatibility_matrices",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "competitor_intelligence_repository",
+        "column": "competitor_intelligence_repository_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "competitor_intelligence_repository",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "competitor_intelligence_repository",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "completion_rates",
+        "column": "completion_rates_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "completion_rates",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "completion_rates",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "completion_rates",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "completion_rates",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "completion_rates",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "completion_rates",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "consent_privacy_preferences",
+        "column": "consent_privacy_preferences_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "consent_privacy_preferences",
+        "column": "policy_version",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "consent_privacy_preferences",
+        "column": "effective_start",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "consent_privacy_preferences",
+        "column": "effective_end",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "consent_privacy_preferences",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "consent_privacy_preferences",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "contact_center_telephony_metadata",
+        "column": "contact_center_telephony_metadata_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "contact_center_telephony_metadata",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "contact_center_telephony_metadata",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "contact_center_telephony_metadata",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "contact_center_telephony_metadata",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_licensing_metadata",
+        "column": "content_licensing_metadata_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "content_licensing_metadata",
+        "column": "content_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_licensing_metadata",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_licensing_metadata",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "content_licensing_metadata",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_licensing_metadata",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_metadata",
+        "column": "content_metadata_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "content_metadata",
+        "column": "content_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_metadata",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_metadata",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "content_metadata",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "content_metadata",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "column": "cost_to_serve_metrics_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "cost_to_serve_metrics",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "curated_analytics_datasets",
+        "column": "curated_analytics_datasets_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "curated_analytics_datasets",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "curated_analytics_datasets",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_communications_history",
+        "column": "customer_communications_history_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_communications_history",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_communications_history",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_communications_history",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_communications_history",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_segments",
+        "column": "customer_segments_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_segments",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_segments",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_support_ticket_data",
+        "column": "customer_support_ticket_data_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_support_ticket_data",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_support_ticket_data",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "customer_support_ticket_data",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "data_access_entitlement_policies_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "policy_version",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "effective_start",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "effective_end",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_entitlement_policies",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_policies",
+        "column": "data_access_policies_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_policies",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_policies",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_access_policies",
+        "column": "policy_version",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_policies",
+        "column": "effective_start",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_access_policies",
+        "column": "effective_end",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_access_policies",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_access_policies",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_lineage_catalog_metadata",
+        "column": "data_lineage_catalog_metadata_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "data_lineage_catalog_metadata",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_lineage_catalog_metadata",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_lineage_catalog_metadata",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_lineage_catalog_metadata",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_quality_checks",
+        "column": "data_quality_checks_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "data_quality_checks",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_quality_checks",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_quality_checks",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "data_quality_checks",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "data_quality_checks",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "delivery_appointments",
+        "column": "delivery_appointments_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "delivery_appointments",
+        "column": "order_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "delivery_appointments",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "delivery_appointments",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "delivery_appointments",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "delivery_appointments",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_counts_per_account",
+        "column": "device_counts_per_account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "device_counts_per_account",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_counts_per_account",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_counts_per_account",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_diagnostics",
+        "column": "device_diagnostics_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "device_diagnostics",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_diagnostics",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_diagnostics",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_firmware_release_notes",
+        "column": "device_firmware_release_notes_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "device_firmware_release_notes",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_firmware_release_notes",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_firmware_release_notes",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_registry",
+        "column": "device_registry_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "device_registry",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_registry",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_registry",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_registry",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "device_registry",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_registry",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_telemetry",
+        "column": "device_telemetry_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "device_telemetry",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_telemetry",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_telemetry",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_telemetry",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "device_telemetry",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "device_telemetry",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feature_store",
+        "column": "feature_store_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "feature_store",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feature_store",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_rating_signals",
+        "column": "feedback_rating_signals_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_rating_signals",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_rating_signals",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_rating_signals",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "feedback_rating_signals",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_rating_signals",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_signals",
+        "column": "feedback_signals_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_signals",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_signals",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_signals",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "feedback_signals",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "feedback_signals",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "field_service_work_orders",
+        "column": "field_service_work_orders_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "field_service_work_orders",
+        "column": "order_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "field_service_work_orders",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "field_service_work_orders",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "field_service_work_orders",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "field_service_work_orders",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "fraud_rules",
+        "column": "fraud_rules_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "fraud_rules",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "fraud_rules",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "fraud_rules",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "fraud_rules",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "freshness_metrics",
+        "column": "freshness_metrics_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "freshness_metrics",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "freshness_metrics",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "freshness_metrics",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "freshness_metrics",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "freshness_metrics",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "freshness_metrics",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "geo_distribution",
+        "column": "geo_distribution_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "geo_distribution",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "geo_distribution",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "ground_truth_label_store",
+        "column": "ground_truth_label_store_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "ground_truth_label_store",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "ground_truth_label_store",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_decisions",
+        "column": "human_review_decisions_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_decisions",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_decisions",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "human_review_decisions",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_decisions",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_queue_decisions",
+        "column": "human_review_queue_decisions_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_queue_decisions",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_queue_decisions",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "human_review_queue_decisions",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "human_review_queue_decisions",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "identity_verification_outcomes",
+        "column": "identity_verification_outcomes_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "identity_verification_outcomes",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "identity_verification_outcomes",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "incident_management_status_confirmations",
+        "column": "incident_management_status_confirmations_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "incident_management_status_confirmations",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "incident_management_status_confirmations",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "installation_delivery_partner_performance",
+        "column": "installation_delivery_partner_performance_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "installation_delivery_partner_performance",
+        "column": "order_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "installation_delivery_partner_performance",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "installation_delivery_partner_performance",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "installation_delivery_partner_performance",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "instructor_metadata",
+        "column": "instructor_metadata_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "instructor_metadata",
+        "column": "content_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "instructor_metadata",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "instructor_metadata",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "instructor_metadata",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "instructor_metadata",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory",
+        "column": "inventory_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "column": "inventory_allocation_rules_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_allocation_rules",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "inventory_turnover_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "inventory_turnover",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "knowledge_base_articles_sops",
+        "column": "knowledge_base_articles_sops_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "knowledge_base_articles_sops",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "knowledge_base_articles_sops",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "kpi_definitions_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "kpi_definitions",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "leaderboards",
+        "column": "leaderboards_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "leaderboards",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "leaderboards",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "leaderboards",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "localization_translation_memory",
+        "column": "localization_translation_memory_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "localization_translation_memory",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "localization_translation_memory",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "login_patterns",
+        "column": "login_patterns_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "login_patterns",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "login_patterns",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "login_patterns",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "margin_targets",
+        "column": "margin_targets_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "margin_targets",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "margin_targets",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "member_profile",
+        "column": "member_profile_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "member_profile",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "member_profile",
+        "column": "member_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "member_profile",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "member_profile",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "membership_subscriptions",
+        "column": "membership_subscriptions_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "membership_subscriptions",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "membership_subscriptions",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "membership_subscriptions",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "membership_subscriptions",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "metric_glossary",
+        "column": "metric_glossary_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "metric_glossary",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "metric_glossary",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "metric_glossary",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "metric_glossary",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "model_registry_evaluation_results",
+        "column": "model_registry_evaluation_results_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "model_registry_evaluation_results",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "model_registry_evaluation_results",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "model_registry_evaluation_results",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "model_registry_evaluation_results",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "model_registry_evaluation_results",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "music_tags",
+        "column": "music_tags_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "music_tags",
+        "column": "content_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "music_tags",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "music_tags",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "notification_templates_rules",
+        "column": "notification_templates_rules_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "notification_templates_rules",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "notification_templates_rules",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "notification_templates_rules",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "notification_templates_rules",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "order_history",
+        "column": "order_history_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "order_history",
+        "column": "order_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "order_history",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "order_history",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "order_history",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "order_management_system_oms",
+        "column": "order_management_system_oms_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "order_management_system_oms",
+        "column": "order_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "order_management_system_oms",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "order_management_system_oms",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "parts_catalog_service_bom",
+        "column": "parts_catalog_service_bom_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "parts_catalog_service_bom",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "parts_catalog_service_bom",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "parts_catalog_service_bom",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "parts_catalog_service_bom",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "payments_risk_signals",
+        "column": "payments_risk_signals_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "payments_risk_signals",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "payments_risk_signals",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "payments_risk_signals",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "payments_risk_signals",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "payments_risk_signals",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "payments_risk_signals",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "personalization_profiles",
+        "column": "personalization_profiles_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "personalization_profiles",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "personalization_profiles",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pii_vault_tokenization_map",
+        "column": "pii_vault_tokenization_map_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "pii_vault_tokenization_map",
+        "column": "policy_version",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pii_vault_tokenization_map",
+        "column": "effective_start",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "pii_vault_tokenization_map",
+        "column": "effective_end",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "pii_vault_tokenization_map",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pii_vault_tokenization_map",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pipeline_logs",
+        "column": "pipeline_logs_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "pipeline_logs",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pipeline_logs",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pipeline_logs",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "pipeline_logs",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pipeline_logs",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "policy_exception_ledger",
+        "column": "policy_exception_ledger_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "policy_exception_ledger",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "policy_exception_ledger",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pricing",
+        "column": "pricing_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "pricing",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pricing",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "pricing",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "product_catalog",
+        "column": "product_catalog_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "product_catalog",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "product_catalog",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "product_catalog",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "product_catalog",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "product_catalog",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "product_specifications",
+        "column": "product_specifications_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "product_specifications",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "product_specifications",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "product_specifications",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotion_rules",
+        "column": "promotion_rules_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "promotion_rules",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotion_rules",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotion_rules",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "promotion_rules",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotion_rules",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotions_calendar_launch_plan",
+        "column": "promotions_calendar_launch_plan_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "promotions_calendar_launch_plan",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotions_calendar_launch_plan",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotions_calendar_launch_plan",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "promotions_calendar_launch_plan",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "prompt_library_version_history",
+        "column": "prompt_library_version_history_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "prompt_library_version_history",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "prompt_library_version_history",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "prompt_library_version_history",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "ratings_feedback",
+        "column": "ratings_feedback_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "ratings_feedback",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "ratings_feedback",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "replacement_inventory",
+        "column": "replacement_inventory_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "replacement_inventory",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "replacement_inventory",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "replacement_inventory",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "replacement_inventory",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "returns",
+        "column": "returns_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "returns",
+        "column": "order_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "returns",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "returns",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "returns",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "revenue_recognition_subscription_accounting",
+        "column": "revenue_recognition_subscription_accounting_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "revenue_recognition_subscription_accounting",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "revenue_recognition_subscription_accounting",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "revenue_recognition_subscription_accounting",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_scores",
+        "column": "risk_scores_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_scores",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_scores",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_scores",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_scores",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "risk_scores",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "risk_scores",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_scores",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_signals",
+        "column": "risk_signals_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_signals",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_signals",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_signals",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_signals",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "risk_signals",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "risk_signals",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "rma_refurbishment_lifecycle",
+        "column": "rma_refurbishment_lifecycle_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "rma_refurbishment_lifecycle",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "rma_refurbishment_lifecycle",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "safety_policy_medical_disclaimers",
+        "column": "safety_policy_medical_disclaimers_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "safety_policy_medical_disclaimers",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "safety_policy_medical_disclaimers",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "sales_velocity",
+        "column": "sales_velocity_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "sales_velocity",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "sales_velocity",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "sales_velocity",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "sales_velocity",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "sales_velocity",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "sales_velocity",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "search_queries",
+        "column": "search_queries_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "search_queries",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "search_queries",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "search_queries",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "seasonality_indicators",
+        "column": "seasonality_indicators_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "seasonality_indicators",
+        "column": "metric_date",
+        "data_type": "DATE",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "seasonality_indicators",
+        "column": "metric_name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "seasonality_indicators",
+        "column": "metric_value",
+        "data_type": "DECIMAL",
+        "length": "18,6",
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "seasonality_indicators",
+        "column": "dimensions_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "seasonality_indicators",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "seasonality_indicators",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "service_level_agreements_slas",
+        "column": "service_level_agreements_slas_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "service_level_agreements_slas",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "service_level_agreements_slas",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "social_graph",
+        "column": "social_graph_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "social_graph",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "social_graph",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "social_graph",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "substitution_list",
+        "column": "substitution_list_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "substitution_list",
+        "column": "sku_id",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "substitution_list",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "substitution_list",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "support_tickets",
+        "column": "support_tickets_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "support_tickets",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "support_tickets",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "support_tickets",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "column": "system_health_api_telemetry_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "system_health_api_telemetry",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "telemetry_schema_registry_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "telemetry_schema_registry",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "tool_registry_tool_schemas",
+        "column": "tool_registry_tool_schemas_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "tool_registry_tool_schemas",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "tool_registry_tool_schemas",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "tool_registry_tool_schemas",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "tool_registry_tool_schemas",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "tool_registry_tool_schemas",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "trust_safety_moderation_events",
+        "column": "trust_safety_moderation_events_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "trust_safety_moderation_events",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "trust_safety_moderation_events",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "trust_safety_moderation_events",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "trust_safety_moderation_events",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "trust_safety_moderation_events",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_contracts_service_terms",
+        "column": "vendor_contracts_service_terms_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_contracts_service_terms",
+        "column": "vendor_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_contracts_service_terms",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_contracts_service_terms",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "vendor_contracts_service_terms",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_contracts_service_terms",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_lead_times",
+        "column": "vendor_lead_times_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_lead_times",
+        "column": "vendor_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_lead_times",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "vendor_lead_times",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "warehouse_management_system_wms",
+        "column": "warehouse_management_system_wms_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "warehouse_management_system_wms",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "warehouse_management_system_wms",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "warranty_terms",
+        "column": "warranty_terms_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "warranty_terms",
+        "column": "name",
+        "data_type": "VARCHAR",
+        "length": 256,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "warranty_terms",
+        "column": "description",
+        "data_type": "VARCHAR",
+        "length": 4000,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "warranty_terms",
+        "column": "status",
+        "data_type": "VARCHAR",
+        "length": 64,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "warranty_terms",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "warranty_terms",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "workout_telemetry_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": true,
+        "is_indexed": true
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "account_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "device_id",
+        "data_type": "BIGINT",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "event_ts",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "event_type",
+        "data_type": "VARCHAR",
+        "length": 128,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "payload_json",
+        "data_type": "JSON",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": false
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "created_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": false,
+        "is_primary_key": false,
+        "is_indexed": true
+      },
+      {
+        "table": "workout_telemetry",
+        "column": "updated_at",
+        "data_type": "TIMESTAMP",
+        "length": null,
+        "nullable": true,
+        "is_primary_key": false,
+        "is_indexed": true
+      }
+    ]
+  },
+  "edges": {
+    "foreign_keys": [
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "authentication_events",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "billing_events",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "challenge_participation",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "class_attendance",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "class_attendance",
+        "from_column": "content_id",
+        "to_table": "content_metadata",
+        "to_column": "content_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "communications_history",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "content_licensing_metadata",
+        "from_column": "content_id",
+        "to_table": "content_metadata",
+        "to_column": "content_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "content_metadata",
+        "from_column": "content_id",
+        "to_table": "content_metadata",
+        "to_column": "content_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "customer_communications_history",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "customer_support_ticket_data",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "delivery_appointments",
+        "from_column": "order_id",
+        "to_table": "order_management_system_oms",
+        "to_column": "order_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "device_counts_per_account",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "device_diagnostics",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "device_firmware_release_notes",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "device_registry",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "device_telemetry",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "field_service_work_orders",
+        "from_column": "order_id",
+        "to_table": "order_management_system_oms",
+        "to_column": "order_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "installation_delivery_partner_performance",
+        "from_column": "order_id",
+        "to_table": "order_management_system_oms",
+        "to_column": "order_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "instructor_metadata",
+        "from_column": "content_id",
+        "to_table": "content_metadata",
+        "to_column": "content_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "leaderboards",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "login_patterns",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "member_profile",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "membership_subscriptions",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "music_tags",
+        "from_column": "content_id",
+        "to_table": "content_metadata",
+        "to_column": "content_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "order_history",
+        "from_column": "order_id",
+        "to_table": "order_management_system_oms",
+        "to_column": "order_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "order_management_system_oms",
+        "from_column": "order_id",
+        "to_table": "order_management_system_oms",
+        "to_column": "order_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "payments_risk_signals",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "returns",
+        "from_column": "order_id",
+        "to_table": "order_management_system_oms",
+        "to_column": "order_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "risk_scores",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "risk_signals",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "search_queries",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "social_graph",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "support_tickets",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "system_health_api_telemetry",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "telemetry_schema_registry",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "workout_telemetry",
+        "from_column": "account_id",
+        "to_table": "account",
+        "to_column": "account_id"
+      },
+      {
+        "edge_type": "FOREIGN_KEY",
+        "from_table": "workout_telemetry",
+        "from_column": "device_id",
+        "to_table": "device_registry",
+        "to_column": "device_id"
+      }
+    ],
+    "lineage_edges": []
+  },
+  "notes": [
+    "Each Dataset is modeled as a logical table to support agent-access tooling and governance.",
+    "Foreign keys are inferred heuristically from dataset names (e.g., event tables reference Account, Device, Content, Order).",
+    "Populate lineage_edges when upstream/downstream pipelines are defined."
+  ]
+}
