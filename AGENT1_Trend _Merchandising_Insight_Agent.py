@@ -1,6 +1,67 @@
 # Pydantic-style schema (conceptual; adapt to your LangGraph version)
 ### code source: https://chatgpt.com/share/6971bd32-f310-800c-bda5-b1ff1baaed8d
 
+####LangGraph Node Map
+### Nodes (in execution order)
+###    N0: intake_scope
+###    Parse request intent: time window, region, entity types (classes/equipment/accessories), channels, optional constraints.
+###    Output: normalized scope defaults and query plan.
+
+###    N1: validate_metrics_semantic_layer
+###    Validate requested KPIs exist in the BI semantic layer (and are allowed for the requested grain/dimensions).
+###    Output: approved metric list + metric definition references (for citation).
+
+###    N2: check_data_freshness
+###    Check freshness/anomaly status for each required dataset/metric dependency.
+###    Output: freshness report + gating decision (proceed / warn / block).
+
+###    N3: retrieve_analytics_signals
+###    Tool calls to fetch:
+###     -Sales velocity (products)
+###     -Completion deltas (classes/content)
+###     -Search momentum (queries → clicks)
+###     -Inventory turnover / ATP
+###     -Seasonality baseline / index
+###    Output: structured signal tables.
+
+###    N4: normalize_and_join_signals
+###    Join across entity IDs; normalize units; handle missing values.
+###    Output: unified candidate trend table with features.
+
+###    N5: score_and_rank_trends
+###    Deterministic scoring (non-LLM): z-scores, volume thresholds, seasonality adjustment, anomaly suppression.
+###    Output: ranked trends by category + confidence.
+
+###    N6: apply_inventory_and_policy_filters
+###    Enforce constraints: ATP threshold, regional eligibility, promo constraints, no contradictory recommendations.
+###    Output: filtered recommendations + watchlist (low ATP / emerging).
+
+###    N7: generate_narrative_and_actions
+###    LLM node: produce executive narrative with:
+###     -what’s trending
+###     -why (drivers)
+###     -actions (channel-specific)
+###     -caveats (freshness, sample sizes)
+###    Output: narrative + action plan.
+
+###    N8: citation_and_output_validation
+###    Verify:
+###     -citations exist (metric definitions, time window, source references)
+###     -no hallucinated numbers (only from signal tables)
+###     -all recommended items comply with inventory/policy filters
+###    Output: final report + structured JSON payload.
+
+## Conditional Edges
+
+###    After N2:
+###     If freshness is BLOCK → route to N2b_handle_blocked_freshness
+###     If freshness is WARN → proceed but enforce caveats in N7/N8
+
+###    After N6:
+###     If all candidates filtered out → route to N6b_generate_no_recs_response
+
+#######################################################################
+
 from typing import Any, Dict, List, Optional, Literal
 from pydantic import BaseModel, Field
 
